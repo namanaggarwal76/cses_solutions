@@ -1,0 +1,9 @@
+site_name: CSES Solutions 
+
+theme:
+  name: material
+
+nav:
+  - Home: index.md
+  - Introductory Problems: 
+    - Increasing Array: intro/increasing_array.md
