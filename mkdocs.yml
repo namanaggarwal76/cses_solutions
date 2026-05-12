@@ -1,13 +1,58 @@
-site_name: CSES Solutions 
+site_name: CSES Solutions
+site_description: Solutions and explanations for CSES competitive programming problems
+site_author: Naman Aggarwal
+repo_url: https://github.com/namanaggarwal76/cses_solutions
+repo_name: cses_solutions
 
 theme:
   name: material
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.tabs.link
+  palette:
+    - scheme: default
+      primary: blue
+      accent: amber
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: blue
+      accent: amber
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+plugins:
+  - search
+
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables
+  - admonition
+  - pymdownx.details
+  - toc:
+      permalink: true
 
 nav:
   - Home: index.md
   - Introductory Problems: 
     - Weird Algorithm: intro/weird_algo.md
-    - Missing Number: intro/missing_num.md
+    - Missing Number: intro/missing_number.md
     - Repetitions: intro/repetitions.md
     - Increasing Array: intro/increasing_array.md
     - Permutations: intro/permutations.md
+    - Number Spiral: intro/number_spiral.md
+    - Bit Strings: intro/bit_strings.md
+    - Trailing Zeroes: intro/trailing_zeroes.md
+    
+    

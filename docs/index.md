@@ -1,3 +1,3 @@
 # CSES Solutions
 
-Trying to do CSES ```:)```
+> Trying to do CSES `:)`
