@@ -54,5 +54,6 @@ nav:
     - Number Spiral: intro/number_spiral.md
     - Bit Strings: intro/bit_strings.md
     - Trailing Zeroes: intro/trailing_zeroes.md
-    
+    - Coin Piles: intro/coin_piles.md
+    - Palindrome Reorder: intro/palindrome_reorder.md
     
