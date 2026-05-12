@@ -6,4 +6,8 @@ theme:
 nav:
   - Home: index.md
   - Introductory Problems: 
+    - Weird Algorithm: intro/weird_algo.md
+    - Missing Number: intro/missing_num.md
+    - Repetitions: intro/repetitions.md
     - Increasing Array: intro/increasing_array.md
+    - Permutations: intro/permutations.md

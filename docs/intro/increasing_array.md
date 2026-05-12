@@ -2,12 +2,16 @@
 
 ## Problem Link
 
-```https://cses.fi/problemset/task/1094/```
+[https://cses.fi/problemset/task/1094](https://cses.fi/problemset/task/1094)
 
 ## Complexity
 
 - Time: O(n)
 - Space: O(n)
+
+## Approach
+
+We do a greedy approach, and if a number is `<` the prev num, we increase it till its the same, so `res = res + (curr-last)`, and then update the last accordingly.
 
 ## C++ Solution
 
