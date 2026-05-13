@@ -51,9 +51,23 @@ nav:
     - Repetitions: intro/repetitions.md
     - Increasing Array: intro/increasing_array.md
     - Permutations: intro/permutations.md
+    - Two Knights: intro/two_knights.md
+    - Two Sets: intro/two_sets.md
     - Number Spiral: intro/number_spiral.md
     - Bit Strings: intro/bit_strings.md
     - Trailing Zeroes: intro/trailing_zeroes.md
     - Coin Piles: intro/coin_piles.md
     - Palindrome Reorder: intro/palindrome_reorder.md
-    
+    - Gray Code: intro/gray_code.md
+    - Tower of Hanoi: intro/tower_of_hanoi.md
+    - Creating Strings: intro/creating_strings.md
+    - Apple Division: intro/apple_division.md
+    - Knight Moves Grid: intro/knight_moves_grid.md
+    - Digit Queries: intro/digit_queries.md
+    - String Reorder: intro/string_reorder.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/namanaggarwal76
+      
