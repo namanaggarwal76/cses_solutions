@@ -65,6 +65,16 @@ nav:
     - Knight Moves Grid: intro/knight_moves_grid.md
     - Digit Queries: intro/digit_queries.md
     - String Reorder: intro/string_reorder.md
+  - Searching and Sorting:
+    - Distinct Numbers: searching/distinct_number.md
+    - Apartments: searching/apartments.md
+    - Ferris Wheel: searching/ferris_wheel.md
+    - Concert Tickets: searching/concert_tickets.md
+    - Restaurant Customers: searching/restaurant_customers.md
+    - Movie Festival: searching/movie_festival.md
+    - Sum of Two Values: searching/sum_of_two_values.md
+    - Maximum Subarray Sum: searching/maximum_subarray_sum.md
+    - Stick Lengths: searching/stick_lengths.md
 
 extra:
   social:
