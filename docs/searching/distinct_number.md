@@ -6,7 +6,7 @@
 
 ## Complexity
 
-- Time: O(n logn) (logn due to unordered set)
+- Time: O(n logn) (logn due to set)
 - Space: O(n)
 
 ## Approach

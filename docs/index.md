@@ -4,8 +4,24 @@
 
 ## Introductory Problems
 
-5 Left
+```mermaid
+pie
+    "Done" : 19
+    "Left" : 5
+```
 
 ## Searching and Sorting
 
-Doing Now
+```mermaid
+pie
+    "Done" : 9
+    "Left" : 26
+```
+
+## Dynamic Programming
+
+```mermaid
+pie
+    "Done" : 9
+    "Left" : 14
+```

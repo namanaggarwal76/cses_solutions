@@ -17,24 +17,29 @@ theme:
     - content.tabs.link
   palette:
     - scheme: default
-      primary: blue
+      primary: deep purple
       accent: amber
       toggle:
-        icon: material/brightness-7
+        icon: material/weather-night
         name: Switch to dark mode
     - scheme: slate
       primary: blue
       accent: amber
       toggle:
-        icon: material/brightness-4
+        icon: material/weather-sunny
         name: Switch to light mode
 
 plugins:
   - search
+  - mermaid2
 
 markdown_extensions:
   - pymdownx.highlight
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:mermaid2.fence_mermaid_custom
   - pymdownx.tabbed:
       alternate_style: true
   - tables
@@ -75,9 +80,39 @@ nav:
     - Sum of Two Values: searching/sum_of_two_values.md
     - Maximum Subarray Sum: searching/maximum_subarray_sum.md
     - Stick Lengths: searching/stick_lengths.md
+  - Dynamic Programming:
+    - Dice Combinations: dp/dice_combinations.md
+    - Minimizing Coins: dp/minimizing_coins.md
+    - Coin Combinations I: dp/coin_combinations_i.md
+    - Coin Combinations II: dp/coin_combinations_ii.md
+    - Removing Digits: dp/removing_digits.md
+    - Grid Paths I: dp/grid_paths_i.md
+    - Book Shop: dp/book_shop.md
+    - Array Description: dp/array_description.md
+    - Counting Towers: dp/counting_towers.md
+    # - Edit Distance: dp/edit_distance.md
+    # - Longest Common Subsequence: dp/longest_common_subsequence.md
+    # - Rectangle Cutting: dp/rectangle_cutting.md
+    # - Minimal Grid Path: dp/minimal_grid_path.md
+    # - Money Sums: dp/money_sums.md
+    # - Removal Game: dp/removal_game.md
+    # - Two Sets II: dp/two_sets_ii.md
+    # - Mountain Range: dp/mountain_range.md
+    # - Increasing Subsequence: dp/increasing_subsequence.md
+    # - Projects: dp/projects.md
+    # - Elevator Rides: dp/elevator_rides.md
+    # - Counting Tilings: dp/counting_tilings.md
+    # - Counting Numbers: dp/counting_numbers.md
+    # - Increasing Subsequence II: dp/increasing_subsequence_ii.md
 
 extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/namanaggarwal76
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/namanaggarwal2111/
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/namanaggarwal76/
+    - icon: fontawesome/brands/reddit
+      link: https://www.reddit.com/user/poqupied/
       
