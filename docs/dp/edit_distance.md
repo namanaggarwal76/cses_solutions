@@ -3,3 +3,40 @@
 ## Problem Link
 
 [https://cses.fi/problemset/task/1639](https://cses.fi/problemset/task/1639)
+
+## Complexity
+
+- Time: O(n*m)
+- Space: O(n*m)
+
+## Approach
+
+we create a 2D array dp of size (n+1) x (m+1), where `dp[i][j]` represents the minimum edit distance between the first i characters of string a and the first j characters of string b and transition is defined as follows:
+
+- If a[i-1] == b[j-1], then `dp[i][j]` = `dp[i-1][j-1]`
+- Else, `dp[i][j]` = 1 + min(`dp[i-1][j]`, `dp[i][j-1]`, `dp[i-1][j-1]`) (all 3 represent the cost of insertion, deletion, and substitution respectively)
+
+## C++ Solution
+
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+
+int main(){
+    string s1, s2;
+    cin >> s1 >> s2;
+    int n=s1.size(), m=s2.size();
+    vector<vector<long long>> dp(n+1, vector<long long>(m+1, 0));
+    for (int i=0;i<=n;i++) dp[i][0]=i;
+    for (int j=0;j<=m;j++) dp[0][j]=j;
+    for (int i=1;i<=n;i++){
+        for (int j=1;j<=m;j++){
+            if (s1[i-1]==s2[j-1]) dp[i][j]=dp[i-1][j-1];
+            else{
+                dp[i][j]=1+min(min(dp[i-1][j-1], dp[i-1][j]), dp[i][j-1]);
+            }
+        }
+    }
+    cout << dp[n][m] << endl;
+}
+```

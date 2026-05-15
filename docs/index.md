@@ -22,6 +22,6 @@ pie
 
 ```mermaid
 pie
-    "Done" : 9
-    "Left" : 14
+    "Done" : 13
+    "Left" : 10
 ```

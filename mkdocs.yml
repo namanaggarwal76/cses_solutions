@@ -90,11 +90,11 @@ nav:
     - Book Shop: dp/book_shop.md
     - Array Description: dp/array_description.md
     - Counting Towers: dp/counting_towers.md
-    # - Edit Distance: dp/edit_distance.md
-    # - Longest Common Subsequence: dp/longest_common_subsequence.md
-    # - Rectangle Cutting: dp/rectangle_cutting.md
+    - Edit Distance: dp/edit_distance.md
+    - Longest Common Subsequence: dp/longest_common_subsequence.md
+    - Rectangle Cutting: dp/rectangle_cutting.md
     # - Minimal Grid Path: dp/minimal_grid_path.md
-    # - Money Sums: dp/money_sums.md
+    - Money Sums: dp/money_sums.md
     # - Removal Game: dp/removal_game.md
     # - Two Sets II: dp/two_sets_ii.md
     # - Mountain Range: dp/mountain_range.md
