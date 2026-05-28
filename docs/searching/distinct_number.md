@@ -11,7 +11,7 @@
 
 ## Approach
 
-We put all elements in an `unordered_set`, and finally return its size, idk why normal set was giving tle on large n values (maybe due to colliding hashes).
+We put all elements in an `set`, and finally return its size, idk why unordered_set was giving tle on large n values (maybe due to colliding hashes).
 
 ## C++ Solution
 

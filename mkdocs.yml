@@ -80,6 +80,12 @@ nav:
     - Sum of Two Values: searching/sum_of_two_values.md
     - Maximum Subarray Sum: searching/maximum_subarray_sum.md
     - Stick Lengths: searching/stick_lengths.md
+    - Missing Coin Sum: searching/missing_coin.md
+    - Collecting Numbers: searching/collecting_num.md
+    - Collecting Numbers II: searching/collecting_num_ii.md
+    - Playlist: searching/playlist.md
+    - Towers: searching/towers.md
+    - Traffic Light: searching/traffic_light.md
   - Dynamic Programming:
     - Dice Combinations: dp/dice_combinations.md
     - Minimizing Coins: dp/minimizing_coins.md
@@ -104,6 +110,26 @@ nav:
     # - Counting Tilings: dp/counting_tilings.md
     # - Counting Numbers: dp/counting_numbers.md
     # - Increasing Subsequence II: dp/increasing_subsequence_ii.md
+  - Graph Algorithms:
+    - Counting Rooms: graphs/counting_rooms.md
+    - Labyrinth: graphs/labyrinth.md
+    - Building Roads: graphs/building_roads.md
+    - Message Route: graphs/message_route.md
+    - Building Teams: graphs/building_teams.md
+    - Round Trip: graphs/round_trip.md
+    - Monsters: graphs/monsters.md
+    - Shortest Routes I: graphs/shortest_route.md
+    - Shortest Routes II: graphs/shortest_path2.md
+    - High Score: graphs/high_score.md
+    - Flight Discount: graphs/discount.md
+    - Cycle Finding: graphs/find_cycle.md
+    - Flight Routes: graphs/flight_routes.md
+    - Round Trip II: graphs/round_trip2.md
+    - Course Schedule: graphs/courses.md
+  - Sliding Window:
+    - Sliding Window Sum: sliding/sum.md
+    - Sliding Window Minimum: sliding/min.md
+    - Sliding Window Xor: sliding/xor.md
 
 extra:
   social:

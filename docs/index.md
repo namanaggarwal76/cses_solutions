@@ -14,8 +14,8 @@ pie
 
 ```mermaid
 pie
-    "Done" : 9
-    "Left" : 26
+    "Done" : 15
+    "Left" : 20
 ```
 
 ## Dynamic Programming
@@ -24,4 +24,20 @@ pie
 pie
     "Done" : 13
     "Left" : 10
+```
+
+## Graph Algorithms
+
+```mermaid
+pie
+    "Done" : 15
+    "Left" : 21
+```
+
+## Sliding Window
+
+```mermaid
+pie
+    "Done" : 3
+    "Left" : 8
 ```
